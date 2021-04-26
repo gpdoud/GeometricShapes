@@ -6,6 +6,7 @@ namespace GeometricShapes {
 
             var sqr1 = new Sqr(5);
             Console.WriteLine($"sqr1 perimeter is {sqr1.Perimeter()}, area is {sqr1.Area()}");
+            Console.WriteLine($"sqr1 is a {sqr1.Print()}");
 
             var rect1 = new Rect(6, 4);
             Console.WriteLine($"rect1 perimeter is {rect1.Perimeter()}, area is {rect1.Area()}");
